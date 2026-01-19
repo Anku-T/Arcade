@@ -12,7 +12,7 @@ pygame.init()
 # Get screen size
 screen_info = pygame.display.Info()
 screen_width = screen_info.current_w
-screen_height = screen_info.current_h
+screen_height = screen_info.current_h-(8/100*screen_info.current_h)
 
 # Set up the display
 screen = pygame.display.set_mode((screen_width, screen_height))
